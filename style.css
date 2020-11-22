@@ -16,14 +16,16 @@ body
 }
 #search 
 {
-    margin-right:50%;
-   
+    position: absolute;
+    margin-right:60%;
+    margin-top: 10px;
+    align-items: center;
 }
 
 #english 
 {
     color:white;
-    margin-left:1cm;
+    margin-left:0.6cm;
 }
 
 #search1
@@ -31,11 +33,13 @@ body
    display: inline;
    border-top-right-radius: 12px;
    border-style: none;
+   
   
 }
 #glass 
 {
     display:inline;
+    position: absolute;
    
 }
 #menus
@@ -50,11 +54,11 @@ body
     font-weight:bold;
     font-size: 15px;
 }
-header>#logo
+header>#menus>#logo
 {
     position: absolute;
     top: 0.5cm;
-    right: 6.5cm;
+    right: 14.5cm;
     
 }
 
