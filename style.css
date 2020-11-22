@@ -1,0 +1,37 @@
+body
+{
+    direction: rtl;
+    margin : 0px auto;
+}
+header
+{
+    text-align: center;
+    background-color:grey;
+}
+#search 
+{
+    margin-right:50%;
+   
+}
+#english 
+{
+    color:white;
+    margin-left:1cm;
+}
+#search1
+{ 
+    display: inline;
+   border-top-right-radius: 12px;
+   border-style: none;
+  
+}
+#glass 
+{
+    display:inline;
+   
+}
+#menus
+{
+    justify-content:center;
+    display: flex;
+}
