@@ -124,3 +124,58 @@ header>#logo
     width: 291px;
     border-bottom-right-radius: 12px;
 }
+.textop
+{
+    opacity: 0.8;
+    margin-top: 6.5cm;
+    margin-right:4px;
+    background-color: gray;
+    border-bottom-right-radius: 12px;
+    margin-left:4px;
+    width:228px;
+}
+
+.textop>p
+{
+    margin-right: 6px;
+    color:white;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.textop>h3
+{
+    margin-right: 6px;
+    color:white; 
+}
+.link_more
+{
+   
+   float: left;
+    color:white; 
+}
+.flexi2
+{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.picdown
+{
+    text-align: center;
+    width: 264px;
+    color: #575757;
+    margin-right: 6px;
+    border: 0 none #ccc;
+    border-top: 2px solid #ccc;
+    border-left:   2px solid #ccc;
+    border-right:   2px solid #ccc;;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+    border-top-right-radius: 6px;
+}
+.picdown>hr
+{
+    width:80%;
+    text-align: center;
+}
