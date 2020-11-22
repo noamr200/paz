@@ -104,23 +104,24 @@ header>#logo
 /*291 × 354 pixels */
 #pic1
 {
-    background-image: url("./assests/1908364606615453350.JPG");
-
+    background-image: url("./assests/1908364606615453350.JPG") ;
+  
 }
 
 #pic2
 {
-    background-image: url("./assests/Picture-046410251500.jpg");
+    background-image: url("./assests/Picture-046410251500.jpg") ;
 }
 #pic3
 {
-    background-image: url("./assests/פזקר_-291_354410564000.jpg");
+    background-image: url("./assests/פזקר_-291_354410564000.jpg") ;
 }
 
 .picup
 {
+    background-size: 100% 100%; 
     margin-right:16px;
-    height: 354px;
+    height: 364px;
     width: 291px;
     border-bottom-right-radius: 12px;
 }
@@ -139,7 +140,7 @@ header>#logo
 {
     margin-right: 6px;
     color:white;
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 4px;
 }
 
@@ -151,31 +152,49 @@ header>#logo
 .link_more
 {
    
+    background-color: gray;
    float: left;
     color:white; 
 }
 .flexi2
 {
+    margin-top: 20px;
     flex-direction: row;
     display: flex;
     justify-content: center;
 }
 .picdown
 {
-    text-align: center;
-    width: 264px;
+    background-image: url("./assests/small_cube_bg.png");
+    text-align: right;
+    width: 284px;
+    height: 220px;
     color: #575757;
-    margin-right: 6px;
+    margin-right: 36px;
     border: 0 none #ccc;
     border-top: 2px solid #ccc;
     border-left:   2px solid #ccc;
     border-right:   2px solid #ccc;;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px none #ccc;
     border-radius: 0;
-    border-top-right-radius: 6px;
+    border-top-right-radius: 12px;
 }
-.picdown>hr
+
+.bottom_contact
 {
-    width:80%;
-    text-align: center;
+    background-color: #575757;
+}
+#places
+{
+    float: right;
+    padding-right:12px;
+}
+.picdown>#map1
+{
+    position: relative;
+    height: 155px;
+  
+    float: left;
+  
+  
 }
