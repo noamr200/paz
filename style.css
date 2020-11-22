@@ -202,3 +202,32 @@ header>#menus>#logo
   
   
 }
+footer
+{
+    position: fixed;
+    background: url("./assests/footer_bg.png") ;
+    height:38px;
+    width:100%;
+
+    z-index: 99;
+    bottom: 0px;;
+}
+
+footer>.container>ul
+{
+   margin: 0 auto;
+}
+
+
+footer>.container>ul>span>a
+{
+    color:white;
+    margin-bottom: 6px;
+    text-decoration: none;
+}
+footer>.container>ul>span>a:hover
+{
+    color:blue;
+    margin-bottom: 6px;
+    text-decoration: underline;
+}
