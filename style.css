@@ -3,7 +3,13 @@ body
     direction: rtl;
     margin : 0px auto;
 }
-header
+.container
+{
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+    header
 {
     text-align: center;
     background-color:grey;
@@ -32,6 +38,19 @@ header
 }
 #menus
 {
+    image-rendering: auto;
     justify-content:center;
-    display: flex;
+    display: inline-flex;
+}
+#menus>ul>span
+{
+    color:white;
+    font-weight:bold;
+    font-size: 15px;
+}
+header>#logo
+{
+    position: absolute;
+    top: 0.5cm;
+    right: 6.5cm;
 }
