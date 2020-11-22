@@ -19,14 +19,16 @@ body
     margin-right:50%;
    
 }
+
 #english 
 {
     color:white;
     margin-left:1cm;
 }
+
 #search1
 { 
-    display: inline;
+   display: inline;
    border-top-right-radius: 12px;
    border-style: none;
   
@@ -91,3 +93,34 @@ header>#logo
       height: 2px;
     background-image: url("./assests/menu_dropdown_sep.png");
   }
+
+.flexi1
+{
+    margin-top: 30px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+/*291 × 354 pixels */
+#pic1
+{
+    background-image: url("./assests/1908364606615453350.JPG");
+
+}
+
+#pic2
+{
+    background-image: url("./assests/Picture-046410251500.jpg");
+}
+#pic3
+{
+    background-image: url("./assests/פזקר_-291_354410564000.jpg");
+}
+
+.picup
+{
+    margin-right:16px;
+    height: 354px;
+    width: 291px;
+    border-bottom-right-radius: 12px;
+}
