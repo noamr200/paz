@@ -319,9 +319,26 @@ footer>.container>ul>span>a:hover
     margin-bottom: 6px;
     text-decoration: underline;
 }
-#sideMenu {
+#sidemenu {
+    display: block;
     float: right;
     width: 122px;
+    margin-top:40px;
+    padding-right:86px;
     margin-left: 22px;
-    background: url("/assests/side_menu_sprite.png") no-repeat left;
+    border-style: groove;
+    background: url("./assests/side_menu_sprite.png") no-repeat  center ;
+}
+.title2>h1
+{
+    width:444px;
+    font-size:15px;
+    border-bottom: 1px solid #cbcbcb;
+
+}
+.blue 
+{
+    color:blue;
+    font-weight: bold;
+    font-size:20px;
 }
