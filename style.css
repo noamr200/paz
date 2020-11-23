@@ -21,11 +21,26 @@ body
     margin-top: 10px;
     align-items: center;
 }
-
+#menu_blue 
+{
+    background: url("./assests/menu_home_blue.png") no-repeat center left;
+    padding:15px;
+    width:20px;
+    height: 20px;
+}
 #english 
 {
     color:white;
     margin-left:0.6cm;
+}
+
+#english:hover
+{
+    cursor: pointer;
+    color:blue;
+    text-decoration: underline;
+    margin-left:0.6cm;
+
 }
 
 #search1
@@ -67,6 +82,15 @@ header>#menus>#logo
     display: inline-block;
   }
   
+  .dropdown:hover>span {
+    cursor: pointer;
+    color:blue;
+    text-decoration: underline;
+    position: relative;
+    display: inline-block;
+  }
+
+
   .dropdown-content {
     display: none;
     color:white;
@@ -181,10 +205,33 @@ header>#menus>#logo
    
   
 }
-.img_more
+.link_more_down
 {
-    background: url("./assests/read_more_white.png") no-repeat left center;
+    position: relative;
+   
+   float: left;
+    color:black; 
+    font-size: 14px;
+   text-decoration: underline;
+   background: url("./assests/read_more_yellow.png") no-repeat left;
+   padding-left: 15px;
+   
 }
+
+.link_more_down:hover
+{
+    position: relative;
+   
+   float: left;
+    color:blue; 
+    font-size: 14px;
+   text-decoration: underline;
+   background: url("./assests/read_more_blue.png") no-repeat left;
+   padding-left: 15px;
+   
+}
+
+
 .link_more:hover
 {
    cursor: pointer;
