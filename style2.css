@@ -1,0 +1,18 @@
+
+.line_form
+{
+    width:195px;
+    display: inline-block;
+}
+input[type="text"]
+{
+    width:95px;
+}
+input[type="tel"]
+{
+    width:95px;
+}
+input[type="email"]
+{
+    width:95px;
+}
