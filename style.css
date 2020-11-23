@@ -323,4 +323,5 @@ footer>.container>ul>span>a:hover
     float: right;
     width: 122px;
     margin-left: 22px;
+    background: url("/assests/side_menu_sprite.png") no-repeat left;
 }
