@@ -32,20 +32,25 @@
     background-color: blue;
     color:white;
     border-style: groove;
-    margin-right: 65%;
+    margin-right: 72%;
 }
 
 .form {
+    
     background-color:gainsboro;
-    width:290px;
-    padding-right: 4px;
+    width:320px;
+    padding-left:6px;
+    padding-right: 18px;
     border-top-right-radius: 10px;
     border-style: solid solid none solid;
     border-width: 1px;
     border-color: #CCCCCC;
     float: right;
 }
-
+.form_contents
+{
+    padding-right: 1.3cm;
+}
 .info 
 {
     border-top-right-radius: 10px;
@@ -53,7 +58,7 @@
     float: right;
     width: 292px;
     margin-top: -8px;
-    margin-right:4cm;
+    margin-right:2cm;
     border-style: solid solid none solid;
     border-width: 1px;
     border-color: #CCCCCC;
@@ -82,8 +87,8 @@ textarea
     float: right;
     text-align: right;
     background-color: #CCCCCC;
-    margin-top: 60px;
-    margin-left: 10px;
+    margin-top: 12px;
+    margin-right: 10cm;
     border-style: groove;
    
 }
@@ -111,4 +116,20 @@ textarea
     width:20px;
     height: 20px;
 }
+.title2>h1
+{
+    width:344px;
+    font-size:15px;
+    border-bottom: 1px solid #cbcbcb;
+    margin-right:4px;
 
+}
+#contact
+{
+    margin-top:12px;
+    margin-right:14.8cm;
+}
+.about_addemtum
+{
+    margin-left: 465px;
+}

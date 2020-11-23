@@ -2,6 +2,7 @@ body
 {
     direction: rtl;
     margin : 0px auto;
+   
 }
 .container
 {
@@ -96,21 +97,19 @@ header>#menus>#logo
     color:white;
     position: absolute;
     width: 10cm;
-   background-image: url("./assests/menu_dropdown_bg.png");
+    background-image: url("./assests/menu_dropdown_bg.png");
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    /*padding: 12px 16px;*/
     z-index: 1;
   }
 
   .dropdown-content>span:hover {
-      cursor: pointer;
+    cursor: pointer;
    
     color:blue;
    
     width: 10cm;
-   background-image: url("./assests/menu_dropdown_bg.png");
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   
+    text-decoration: underline;
     z-index: 1;
   }
 
@@ -320,13 +319,7 @@ footer>.container>ul>span>a:hover
     text-decoration: underline;
 }
 
-.title2>h1
-{
-    width:444px;
-    font-size:15px;
-    border-bottom: 1px solid #cbcbcb;
 
-}
 .blue 
 {
     color:blue;
