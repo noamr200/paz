@@ -77,20 +77,35 @@ header>#menus>#logo
     /*padding: 12px 16px;*/
     z-index: 1;
   }
+
+  .dropdown-content>span:hover {
+      cursor: pointer;
+   
+    color:blue;
+   
+    width: 10cm;
+   background-image: url("./assests/menu_dropdown_bg.png");
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   
+    z-index: 1;
+  }
+
   
   .dropdown:hover >.dropdown-content {
     display: block;
     width: 6cm;
     text-align: right;
+    text-decoration: underline;
+    
   }
   .dropdown-content>span
   {
      
       width: 100%;
      /* background-image: url("./assests/menu_dropdown_bg.png");*/
-        
-     
   }
+  
+
   .dropdown-sep
   {
       width: 100%;
@@ -155,11 +170,20 @@ header>#menus>#logo
 }
 .link_more
 {
-   
+  position: relative;
     background-color: gray;
    float: left;
     color:white; 
+    font-size: 14px;
    text-decoration: underline;
+   background: url(./assests/read_more_white.png) no-repeat;
+    padding-left: 15px;
+   
+  
+}
+.img_more
+{
+    background: url("./assests/read_more_white.png") no-repeat left center;
 }
 .link_more:hover
 {
@@ -168,6 +192,9 @@ header>#menus>#logo
    float: left;
     color:blue; 
    text-decoration: underline;
+   background: url("./assests/read_more_blue.png") no-repeat;
+    padding-left: 15px;
+  
 }
 
 
