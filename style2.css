@@ -2,17 +2,61 @@
 .line_form
 {
     width:195px;
-    display: inline-block;
+    display: block;
 }
-input[type="text"]
+.line_form>input[type="text"]
 {
     width:95px;
 }
-input[type="tel"]
+.line_form>input[type="tel"]
 {
     width:95px;
 }
-input[type="email"]
+.line_form>input[type="email"]
 {
     width:95px;
+}
+.blue-btn:hover
+{
+    cursor: pointer;
+    background-color: yellow;
+    color:black;
+    border-style: groove;
+    margin-right: 65%;
+    
+}
+.blue-btn
+{
+    background-color: blue;
+    color:white;
+    border-style: groove;
+    margin-right: 65%;
+}
+
+.form {
+    background-color:gainsboro;
+    width:290px;
+    padding-right: 4px;
+    border-top-right-radius: 10px;
+    border-style: solid solid none solid;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    float: right;
+}
+
+.info 
+{
+    border-top-right-radius: 10px;
+    background-color:gainsboro;
+    float: right;
+    width: 292px;
+    margin-top: -8px;
+    margin-right:4cm;
+    border-style: solid solid none solid;
+    border-width: 1px;
+    border-color: #CCCCCC;
+}
+#info2
+{
+    margin-top:20px;
 }
