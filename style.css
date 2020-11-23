@@ -159,7 +159,18 @@ header>#menus>#logo
     background-color: gray;
    float: left;
     color:white; 
+   text-decoration: underline;
 }
+.link_more:hover
+{
+   cursor: pointer;
+    background-color: gray;
+   float: left;
+    color:blue; 
+   text-decoration: underline;
+}
+
+
 .flexi2
 {
     margin-top: 20px;
