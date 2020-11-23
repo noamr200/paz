@@ -268,7 +268,10 @@ header>#menus>#logo
     border-radius: 0;
     border-top-right-radius: 12px;
 }
-
+.picdown>h4
+{
+    margin-top: 2px;
+}
 .bottom_contact
 {
     background-color: #575757;
@@ -315,4 +318,9 @@ footer>.container>ul>span>a:hover
     color:blue;
     margin-bottom: 6px;
     text-decoration: underline;
+}
+#sideMenu {
+    float: right;
+    width: 122px;
+    margin-left: 22px;
 }
