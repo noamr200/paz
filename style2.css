@@ -37,7 +37,7 @@
 
 .form {
     
-    background-color:gainsboro;
+    background-image: linear-gradient(#FEFEFE, #CCCCCC);
     width:320px;
     padding-left:6px;
     padding-right: 18px;
@@ -54,7 +54,7 @@
 .info 
 {
     border-top-right-radius: 10px;
-    background-color:gainsboro;
+    background-image: linear-gradient(#FEFEFE, #CCCCCC);
     float: right;
     width: 292px;
     margin-top: -8px;
@@ -75,7 +75,7 @@ textarea
 .aleft {
     width: 0; 
     height: 0; 
-    margin-top:4px;
+    margin-top:11px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent; 
     float:right;
@@ -86,11 +86,12 @@ textarea
     width: 120px;
     float: right;
     text-align: right;
-    background-color: #CCCCCC;
+    background-image: linear-gradient(#FEFEFE, #CCCCCC);
     margin-top: 12px;
     margin-right: 10cm;
-    border-style: groove;
-   
+   border-top-style:ridge;
+   font-size:18px;
+   line-height: 32px;
 }
 #sidemenu>a
 {
