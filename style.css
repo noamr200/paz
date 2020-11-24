@@ -2,7 +2,7 @@ body
 {
     direction: rtl;
     margin : 0px auto;
-   
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container
 {
@@ -10,7 +10,8 @@ body
     margin: 0 auto;
     padding-bottom: 30px;
 }
-    header
+
+header
 {
     text-align: center;
     background-color:grey;
@@ -74,7 +75,7 @@ header>#menus>#logo
 {
     position: absolute;
     top: 0.5cm;
-    right: 14.5cm;
+    right: 14cm;
     
 }
 
@@ -163,19 +164,20 @@ header>#menus>#logo
 {
     background-size: 100% 100%; 
     margin-right:16px;
-    height: 364px;
+    height: 384px;
     width: 291px;
     border-bottom-right-radius: 12px;
 }
 .textop
 {
     opacity: 0.8;
-    margin-top: 6.5cm;
+    margin-top: 7.2cm;
     margin-right:4px;
+    font-size:13px;
     background-color: gray;
     border-bottom-right-radius: 12px;
     margin-left:4px;
-    width:228px;
+    width:248px;
 }
 
 .textop>p
@@ -190,6 +192,10 @@ header>#menus>#logo
 {
     margin-right: 6px;
     color:white; 
+}
+#more_margin
+{
+    margin-top: 6.8cm !important;
 }
 .link_more
 {
@@ -258,7 +264,7 @@ header>#menus>#logo
     width: 284px;
     height: 220px;
     color: #575757;
-    margin-right: 36px;
+    margin-right: 26px;
     border: 0 none #ccc;
     border-top: 2px solid #ccc;
     border-left:   2px solid #ccc;
@@ -295,8 +301,9 @@ footer
     background: url("./assests/footer_bg.png") ;
     height:38px;
     width:100%;
-
+    font-size:13px;
     z-index: 99;
+    font-weight: bold;;
     bottom: 0px;;
 }
 
